@@ -1,6 +1,6 @@
-public struct MyLibrary {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
+public class MyLibrary {
+    public init() {}
+    public static func hi() {
+        print("Hello from SPM!")
     }
 }
